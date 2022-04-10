@@ -1,0 +1,19 @@
+{
+  "name": "000-tailwind-3-parcel-2-brosersync-prettier",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel src/*.html --no-hmr --public-url ./ & npm run browsersync",
+    "build": "parcel build src/*.html",
+    "browsersync": "node browsersync.js"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.4",
+    "browser-sync": "^2.27.9",
+    "parcel": "^2.4.1",
+    "postcss": "^8.4.12",
+    "prettier": "^2.6.2",
+    "prettier-plugin-tailwindcss": "^0.1.8",
+    "tailwindcss": "^3.0.23"
+  }
+}
